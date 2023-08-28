@@ -1,16 +1,36 @@
 @charset "UTF-8";
-
+/* CSS para os html das redes sociais */
 
 *{
-    margin: 0px;
-    height: 0px;
+    margin:0px;/*ficar perto do inicio*/
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar{ /*tirar a barra de rolagem*/
     width: 0px;
     height: 0px;
 }
 
+
 img{
-    width: 100vw;
+    width: 100vw;/*100% imagem na tela*/
 }
+
+a{
+    display: block;/*para mostra a palavra ACESSE em baixo*/
+    background-color: brown;
+    color: white;
+    padding: 20px; 
+    text-align: center;
+   font-weight: bolder;/*letra ficar mais negrita */              
+    text-decoration: none;
+}
+
+
+a:hover{
+background-color: rgb(160, 4, 137); /*passar o mouse em cima e mudar a cor*/
+color: white;
+}
+
